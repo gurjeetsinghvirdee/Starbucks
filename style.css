@@ -7,6 +7,17 @@
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+}
+
 section {
     position: relative;
     width: 100%;
@@ -17,3 +28,34 @@ section {
     align-items: center;
     background: #fff;
 }
+
+.logo {
+    position: relative;
+    max-width: 80px;
+}
+
+ul {
+    position: relative;
+    display: flex;
+}
+
+ul > li {
+    list-style: none;
+}
+
+li > a {
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
